@@ -106,12 +106,14 @@ nav h3:hover::after {
 
 .text-box h1 {
     font-size: 56px;
+    color: #ffbf00;
 }
 
 .text-box p {
     margin: 40px 0 10px;
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
+    font-weight: 500;
 }
 
 .text-box h4 {
@@ -302,7 +304,7 @@ h3 {
 }
 
 .testimonials-col {
-    flex-basis: 31%;
+    flex-basis: 48%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: center;
@@ -343,6 +345,7 @@ h3 {
         margin-right: 15px;
     }
 }
+
 
 /*--------call to action--------*/
 
@@ -391,7 +394,7 @@ h3 {
 
 /*-------------footer-------------*/
 
-.space{
+.space {
     height: 80px;
 }
 
@@ -453,7 +456,7 @@ h3 {
     opacity: 1;
 }
 
-.menu__item::after{
+.menu__item::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -463,11 +466,11 @@ h3 {
     transition: 0.3s;
 }
 
-.menu__item:hover{
+.menu__item:hover {
     transform: translateY(-10px);
 }
 
-.menu__item:hover::after{
+.menu__item:hover::after {
     width: 80%;
 }
 
@@ -535,4 +538,64 @@ h3 {
     100% {
         background-positon-x: 0px;
     }
+}
+
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(1.background.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    position: relative;
+    text-align: center;
+    margin-top: 70px;
+    color: #a37a00;
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-col h1{
+    padding-top: 20px;
+    text-align: center;
+    color: #ffbf00;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.red-hero-btn {
+    display: inline;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #ffbf00;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+.red-hero-btn:hover {
+    border: 1px solid #ffbf00;
+    background: #ffbf00;
+    transition: 1s;
 }
