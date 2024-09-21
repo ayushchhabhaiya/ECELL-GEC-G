@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOGS | ECELL GEC-C</title>
+    <link rel="icon" href="../img/ecell_logo_black_without-background.png" type="image/icon type">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!------------header------------->
+    <section class="sub-header-2">
+
+        <!-----navigation bar----->
+        <nav class="nav">
+            <a href="../index.html"><img src="../img/ecell_logo_black_without-background.png">
+            </a>
+            <a href="../index.html">
+                <h3>ECELL GEC-G</h3>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-rectangle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="blogs.html">BLOGS</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+    </section>
+
+    <!-------------Blog page------------->
+    <div class="space">
+    </div>
+
+    <header>
+        <a href="blogs.html" class="return-button">Return to Blogs</a>
+    </header>
+
+    <main>
+        <article class="full-post">
+            <h2>My Entrepreneurship Journey</h2>
+            <p class="post-date">Posted on September 14, 2024 <br>-Ayush Patel</p>
+
+            <img src="../img/5.event.jpeg" alt="Entrepreneurship Knowledge" class="post-image">
+            <p>My entrepreneurial journey began at GEC-G, where I joined the E-Cell club. This experience ignited my
+                passion for innovation and business. I started with small projects, learning the ropes of
+                entrepreneurship through hands-on activities and workshops. The support and mentorship from the club
+                were invaluable, helping me to develop critical skills such as leadership, teamwork, and strategic
+                thinking.</p>
+
+            <p>One of my first ventures was a campus-based startup aimed at providing eco-friendly solutions for
+                everyday problems. This project taught me the importance of sustainability and the impact of business on
+                the environment. Despite facing numerous challenges, including limited resources and initial setbacks, I
+                persevered and learned to adapt and innovate.</p>
+
+            <p>Networking with like-minded individuals and attending various entrepreneurial events broadened my
+                perspective and opened up new opportunities. I collaborated with peers on different projects, each
+                experience adding to my knowledge and confidence.</p>
+
+            <p>Today, I am proud of the progress I've made and the lessons I've learned. My journey is far from over,
+                but the foundation built at GEC-G's E-Cell has been instrumental in shaping my entrepreneurial spirit. I
+                am excited about the future and eager to continue exploring new ideas and ventures.</p>
+
+
+            <p> -Ayush Patel</p>
+
+        </article>
+    </main>
+
+
+    <!-----------------footer----------------->
+    <div class="space">
+    </div>
+    <footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/ecell.gecg/">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link"
+                    href="https://www.linkedin.com/company/ecell-gecg">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/ecell.gecg/">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="mailto:ecell@gecg28.ac.in">
+                    <ion-icon name="mail"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="https://www.gecg28.ac.in/">
+                    <ion-icon name="school"></ion-icon>
+                </a></li>
+        </ul>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="../index.html">HOME</a></li>
+            <li class="menu__item"><a class="menu__link" href="events.html">EVENTS</a></li>
+            <li class="menu__item"><a class="menu__link" href="blogs.html">BLOGS</a></li>
+            <li class="menu__item"><a class="menu__link" href="about.html">ABOUT US</a></li>
+            <li class="menu__item"><a class="menu__link" href="contact.html">CONTACT US</a></li>
+
+        </ul>
+        <p>&copy;2024 ECELL GEC-Gandhinagar | All Rights Reserved</p>
+    </footer>
+
+
+
+
+    <!-----JavaScript for Toggle Menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    <!-----------script for footer----------->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+</html>
