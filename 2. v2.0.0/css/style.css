@@ -19,7 +19,7 @@
 .header {
     min-height: 100vh;
     width: 100;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/1.banner.jpeg);
+    background-image: linear-gradient(rgba(30, 30, 4, 0.5), rgba(30, 30, 4, 0.6)), url(../img/background.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -33,14 +33,14 @@ nav {
 }
 
 nav img {
-    width: 40px;
+    width: 60px;
     border-radius: 4px;
     transition: 0.5s;
 }
 
 nav img:hover {
     transform: translateY(-2px);
-    width: 42px;
+    width: 64px;
 }
 
 nav img::after {
@@ -55,6 +55,10 @@ nav img::after {
 
 nav img:hover::after {
     width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav h3 {
@@ -253,7 +257,22 @@ nav .fa-solid {
 
 
 
+.sub-header-events {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/ideathon.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
 
+.sub-header-events h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 70px;
+    color: #c49402;
+}
 
 
 
@@ -382,7 +401,6 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
-
 
 
 
@@ -697,17 +715,17 @@ h3 {
 
 
 
-.sub-header {
+.sub-header-about {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/1.background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/Club_bg.png);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
 }
 
-.sub-header h1 {
+.sub-header-about h1 {
     position: relative;
     text-align: center;
     margin-top: 70px;
@@ -972,7 +990,22 @@ h3 {
 
 
 
+.sub-header-blogs {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/blogs.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
 
+.sub-header-blogs h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 70px;
+    color: #c49402;
+}
 
 
 
@@ -1013,6 +1046,7 @@ main {
 }
 
 .post-image {
+    width: 100%;
     overflow: hidden;
     /* Hide overflow from image */
     border-radius: 8px 8px 0 0;
@@ -1022,7 +1056,7 @@ main {
 .post-image img {
     width: 100%;
     /* Full width image */
-    height: auto;
+    height: 100%;
     /* Maintain aspect ratio */
     transition: transform 0.3s ease;
     /* Smooth zoom on hover */
@@ -1035,6 +1069,7 @@ main {
 
 h2 {
     margin: 10px 0;
+    color: #000000;
     /* Space above and below the title */
 }
 
@@ -1112,9 +1147,9 @@ h2 {
 
 
 .sub-header-2 {
-    height: 105px;
+    height: 120px;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/1.background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../img/background.jpeg);
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -1257,6 +1292,22 @@ footer {
 
 
 
+.sub-header-contact {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/1.banner_2.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header-contact h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 70px;
+    color: #c49402;
+}
 
 
 
@@ -1264,8 +1315,7 @@ footer {
 
 
 
-
-.location{
+.location {
     width: 80%;
     margin: auto;
     border-radius: 8px;
@@ -1273,7 +1323,7 @@ footer {
     box-shadow: #77777770 3.5px 3.5px 5.5px 5.5px;
 }
 
-.location iframe{
+.location iframe {
     width: 100%;
 }
 
@@ -1289,28 +1339,28 @@ footer {
     transform: translateY(-10px);
 }
 
-.contact-us{
+.contact-us {
     width: 80%;
     margin: auto;
     margin-top: 90px;
 }
 
-.contact-col{
+.contact-col {
     flex-basis: 48%;
     margin-bottom: 30px;
 }
 
-.contact-col div{
+.contact-col div {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
 
-.contact-col div p{
+.contact-col div p {
     padding: 0;
 }
 
-.contact-col div h5{
+.contact-col div h5 {
     font-size: 20px;
     margin-bottom: 5px;
     color: #555;
